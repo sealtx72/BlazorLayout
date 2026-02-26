@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Alberto Morales",
+    "classifications": [
+        "Web",
+        "Blazor",
+        "WebAssembly"
+    ],
+    "identity": "AlbertoMorales.BlazorWasmLayout",
+    "name": "Blazor WebAssembly With Branded Layout",
+    "shortName": "BlazorWasmLayout",
+    "sourceName": "BlazorLayout",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "preferNameDirectory": true,
+    "sources": [{
+        "exclude": [
+            ".git/**",
+            ".github/**",
+            ".gitignore",
+            ".gitattributes",
+            ".template.config/**",
+            ".vs/**",
+            "**/bin/**",
+            "**/obj/**",
+            "README.md"
+        ]
+    }]
+}
